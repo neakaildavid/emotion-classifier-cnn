@@ -10,6 +10,11 @@ The model is trained to classify facial expressions into seven different emotion
 - Angry
 - Disgust
 
+Dataset:
+FER-2013 dataset
+Source: Kaggle
+License: Public
+
 This system includes a complete machine learning pipeline:
 - Dataset loading
 - Preprocessing and caching
@@ -46,6 +51,13 @@ Training the model:
 Running the inference:
 - python scripts/predict.py path/to/image.jpg
 - (EXAMPLE) python scripts/predict.py data/test/happy/PrivateTest_95094.jpg
+
+Results:
+Validation Accuracy: ~65%
+Input size: 48x48 grayscale
+Optimizer: Adam
+Loss: Sparse Categorical Crossentropy
+
 
 Summary:
 Designed and trained a deep convolutional neural network for multi-class facial emotion classification.
