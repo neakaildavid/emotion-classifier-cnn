@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# Model artifacts
+model/*.h5
+
+# Cached preprocessing
+data/preprocessed/
+
+# Mac
+.DS_Store
+
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
